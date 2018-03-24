@@ -107,13 +107,13 @@ If you just want to change the environment of your current shell, instead of the
 source /opt/ros/kinetic/setup.bash
 ```
 #### Dependencies for building packages
-> Dependências para contruir pacotes
+> Dependências para construir pacotes
 
 Up to now you have installed what you need to run the core ROS packages. To create and manage your own ROS workspaces, there are various tools and requirements that are distributed separately. For example,  [rosinstall](http://wiki.ros.org/rosinstall)  is a frequently used command-line tool that enables you to easily download many source trees for ROS packages with one command.
 > Agora como você já instalou o que precisa pra rodar os pacotes ROS. Para criar e gerir o seu proprio espaço de trabalho ROS, existe muitas ferramentas e requisitos que são distribuídos separadamente. Por exemplo,  [rosinstall](http://wiki.ros.org/rosinstall), que é uma ferramente de linha de comando fequentemente usada para permitir downloads de muitas árvores-raiz de pacotes ROS com apenas um comando.
 
 To install this tool and other dependencies for building ROS packages, run:
-> Para instalar essa ferramenta e outras dependências para a contrução de pacotes ROS, rode:
+> Para instalar essa ferramenta e outras dependências para a construção de pacotes ROS, rode:
 
 ```
   sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
