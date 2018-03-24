@@ -74,6 +74,8 @@ Before you can use ROS, you will need to initialize  rosdep.  rosdep  enables yo
 
 `
 sudo rosdep init
+`
+`
 rosdep update
 `
 #### Environment setup
@@ -81,10 +83,12 @@ rosdep update
  
 It's convenient if the ROS environment variables are automatically added to your bash session every time a new shell is launched:
 > É conveniente se as variaveis de ambiente do ROS são automaticamente adicionadas na sua seção bash toda vez que você inicializa um novo terminal.
-``` 
+` 
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+`
+`
 source ~/.bashrc
-```
+`
 If you just want to change the environment of your current shell, instead of the above you can type:
 >Se você quiser somente mudar o ambiente do seu terminal atual, digite apenas:
 
