@@ -1,5 +1,5 @@
-For all documents in that repository you'll need a ROS Kinetic installed.
-> Para todos os documentos nesse repositório, você precisará do ROS Kinetic instalado.
+**For all documents in that repository you'll need a ROS Kinetic installed.**
+> **Para todos os documentos nesse repositório, você precisará do ROS Kinetic instalado.**
 ----
 ## Ubuntu install of ROS Kinetic
 > Instalação do ROS Kinetic no Ubuntu
