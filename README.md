@@ -100,9 +100,9 @@ Up to now you have installed what you need to run the core ROS packages. To crea
 To install this tool and other dependencies for building ROS packages, run:
 > Para instalar essa ferramenta e outras dependências para a contrução de pacotes ROS, rode:
 
-`
-sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
-`
+```
+  sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+```
 ### Tutorials
 
 Now, to test your installation, please proceed to the  [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials).
