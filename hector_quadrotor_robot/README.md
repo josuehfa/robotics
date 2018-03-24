@@ -11,9 +11,9 @@ Hector Quadrotor was not installed by default on *ROS Kinetic*. To use it, you m
 This is *manual* way to install necessary packages :
 >Esta é a maneira manual de instalar os pacotes necessários.
 
-`
+```
 sudo apt-get install ros-kinetic-ros-control ros-kinetic-ros-controllers ros-kinetic-gazebo-ros-control ros-kinetic-unique-identifier ros-kinetic-geographic-info ros-kinetic-laser-geometry ros-kinetic-tf-conversions ros-kinetic-tf2-geometry-msgs ros-kinetic-joy libgazebo7 
-`
+```
 
 If you want to use `rosdep` and install all dependencies.
 > Se preferir você pode instalar as dependências usando *rosdep*.
@@ -28,17 +28,17 @@ mkdir catkin_ws
 That tools (wstool) is simular to *git clone* to download sources.
 > Essa ferramenta (wstool) é similar ao *git clone* para baixar códigos.
 
-`
+```
 wstool init src https://raw.github.com/tu-darmstadt-ros-pkg/hector_quadrotor/kinetic-devel/tutorials.rosinstall
-`
+```
 
 `
 cd src
 `
 
-`
+```
 git clone https://github.com/ros-simulation/gazebo_ros_pkgs.git
-`
+```
 
 *Install dependencies with* `rosdep` : 
 > Instalando dependências que podem está faltando, usando o *rosdep*:
