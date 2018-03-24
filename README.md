@@ -36,36 +36,44 @@ There are many different libraries and tools in ROS. We provided four default co
 > Existem muitas bibliotecas e ferramentos no ROS. Nos providenciamos quatro configurações padrões para você começar. Além disso, você pode instalar pacotes ROS individualmente.
 
 -   ***Desktop-Full Install: (Recommended)***  : ROS,  [rqt](http://wiki.ros.org/rqt),  [rviz](http://wiki.ros.org/rviz), robot-generic libraries, 2D/3D simulators, navigation and 2D/3D perception.
+
  `
 sudo apt-get install ros-kinetic-desktop-full
 `        
 
-	> ***Instalação Completa no Computador:(Recomendada):*** ROS, [rqt](http://wiki.ros.org/rqt), [rviz](http://wiki.ros.org/rviz), bibliotecas genericas de robôs, simuladores 2D/3D, navegação e percepção 2D/3D.    
+   > ***Instalação Completa no Computador:(Recomendada):*** ROS, [rqt](http://wiki.ros.org/rqt), [rviz](http://wiki.ros.org/rviz), bibliotecas genericas de robôs, simuladores 2D/3D, navegação e percepção 2D/3D.    
+   
    - ***Desktop Install:*** ROS,  [rqt](http://wiki.ros.org/rqt),  [rviz](http://wiki.ros.org/rviz), and robot-generic libraries
+   
     `
        sudo apt-get install ros-kinetic-desktop
-      `  
-      > ***Instalação no Computador:*** ROS, [rqt](http://wiki.ros.org/rqt), [rviz](http://wiki.ros.org/rviz) e bibliotecas genericas de robôs.
+    `
+    
+   > ***Instalação no Computador:*** ROS, [rqt](http://wiki.ros.org/rqt), [rviz](http://wiki.ros.org/rviz) e bibliotecas genericas de robôs.
         
     
  - ***ROS-Base: (Bare Bones)***  ROS package, build, and communication libraries. No GUI tools.
-    `	
+ 
+  `	
 sudo apt-get install ros-kinetic-ros-base
     `    
-       
-	 > ***Base ROS:(Esqueleto do sistema):*** Pacote ROS, construtor e bibliotecas de comunicação. Sem ferramentas GUI.
+      > ***Base ROS:(Esqueleto do sistema):*** Pacote ROS, construtor e bibliotecas de comunicação. Sem ferramentas GUI.
     
+  
   - ***Individual Package:***  You can also install a specific ROS package (replace underscores with dashes of the package name):
+  
     `
       sudo apt-get install ros-kinetic-<NAME-OF-PACKAGE>
       `  
+      
 	> ***Pacotes Individuais:*** Além disso, você pode instalar pacores especificos do ROS (Substitua o < NAME-OF-PACKAGE > pelo nome do pacote a ser instalado.
 	
 	To find available packages, use:
+	
 `
 	apt-cache search ros-kinetic
 `
-	> Para achar pacotes disponiveis, use:
+      > Para achar pacotes disponiveis, use:
 #### Initialize rosdep
 > Inicializando o rosdep
 
@@ -75,20 +83,25 @@ Before you can use ROS, you will need to initialize  rosdep.  rosdep  enables yo
 `
 sudo rosdep init
 `
+
 `
 rosdep update
 `
+
 #### Environment setup
 > Configuração de ambiente
  
 It's convenient if the ROS environment variables are automatically added to your bash session every time a new shell is launched:
 > É conveniente se as variaveis de ambiente do ROS são automaticamente adicionadas na sua seção bash toda vez que você inicializa um novo terminal.
+
 ` 
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 `
+
 `
 source ~/.bashrc
 `
+
 If you just want to change the environment of your current shell, instead of the above you can type:
 >Se você quiser somente mudar o ambiente do seu terminal atual, digite apenas:
 
